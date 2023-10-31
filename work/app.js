@@ -109,6 +109,7 @@ class App {
       // Render the scene with THREE.WebGLRenderer.
       this.renderer.render(this.scene, this.camera);
     }
+  }
 
   /**
    * Initialize three.js specific rendering code, including a WebGLRenderer,
